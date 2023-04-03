@@ -18,7 +18,7 @@
 import React from "react";
 
 // reactstrap components
-import { Button, Container, Row, Col } from "reactstrap";
+import { Button, Col, Container, Row } from "reactstrap";
 
 class Hero extends React.Component {
   render() {
@@ -51,11 +51,10 @@ class Hero extends React.Component {
                       style={{ width: "200px" }}
                     />
                     <p className="lead text-white">
-                      A beautiful Design System for Bootstrap 4. It's Free and
-                      Open Source.
+                      Offering Better Software
                     </p>
                     <div className="btn-wrapper mt-5">
-                      <Button
+                      {/* <Button
                         className="btn-white btn-icon mb-3 mb-sm-0"
                         color="default"
                         href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
@@ -65,33 +64,21 @@ class Hero extends React.Component {
                           <i className="ni ni-cloud-download-95" />
                         </span>
                         <span className="btn-inner--text">Download React</span>
-                      </Button>{" "}
+                      </Button>{" "} */}
                       <Button
                         className="btn-icon mb-3 mb-sm-0"
                         color="github"
-                        href="https://github.com/creativetimofficial/argon-design-system-react"
+                        href="https://nittodigital.com/"
                         size="lg"
                         target="_blank"
                       >
-                        <span className="btn-inner--icon mr-1">
+                        {/* <span className="btn-inner--icon mr-1">
                           <i className="fa fa-github" />
-                        </span>
+                        </span> */}
                         <span className="btn-inner--text">
-                          <span className="text-warning mr-1">Star us</span>
-                          on Github
+                          Our Official Page
                         </span>
                       </Button>
-                    </div>
-                    <div className="mt-5">
-                      <small className="text-white font-weight-bold mb-0 mr-2">
-                        *proudly coded by
-                      </small>
-                      <img
-                        alt="..."
-                        className="ml-1"
-                        style={{ height: "28px" }}
-                        src={require("assets/img/brand/creativetim-white-slim.png")}
-                      />
                     </div>
                   </Col>
                 </Row>

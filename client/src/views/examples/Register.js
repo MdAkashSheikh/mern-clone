@@ -21,22 +21,22 @@ import React from "react";
 import {
   Button,
   Card,
-  CardHeader,
   CardBody,
-  FormGroup,
+  CardHeader,
+  Col,
+  Container,
   Form,
+  FormGroup,
   Input,
+  InputGroup,
   InputGroupAddon,
   InputGroupText,
-  InputGroup,
-  Container,
-  Row,
-  Col
+  Row
 } from "reactstrap";
 
 // core components
-import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import SimpleFooter from "components/Footers/SimpleFooter.js";
+import DemoNavbar from "components/Navbars/DemoNavbar.js";
 
 class Register extends React.Component {
   componentDidMount() {
